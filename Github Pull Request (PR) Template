@@ -1,0 +1,200 @@
+#  GitHub Pull Request (PR) Template
+
+---
+
+## 1. Purpose
+This document establishes a standardized pull request (PR) template to ensure consistent documentation of changes, support Agile traceability, and factilitate efficient review and approval processes. 
+
+## 2. Scope
+This SOP applies to all project team members submitting pull requests withing the GitHub repository. 
+
+This document covers:
+- Pull Request creation
+- Commity message formatting
+- PR title conventions
+- Documentation and review requirements
+
+This SOP will apply to both code and documentation changes. 
+
+## 4. Definitions
+- **Pull Request (PR):** A request to merge changes from one branch into another
+- **Agile Traceability:** Linking work to user stories, tasks, or backlog items
+- **Commit Message:** A description of changes associated with a code or documentation update
+
+## 5. Roles and Responsibilities
+
+| Role | Responsibility |
+|------|---------------|
+| Contributor | Creates PRs in accordance with this SOP |
+| Reviewer | Reviews PRs for accuracy, completeness, and compliance |
+| Software Development Lead | Approves PRs and ensures alignment with requirements |
+| Technical Writer | Maintains documentation standards and templates |
+
+## 6. Pull Request Standards
+
+All pull requests will contain the following:
+
+- Follow the required title and commit message format
+- Include Agile traceability (e.g., ticket or user story)
+- Provide a clear description of changes
+- Address documentation impact
+
+## 7. Pull Request Title and Commit Message Requirements
+
+### 7.1 Standard Format 
+
+**Format:**
+
+[TYPE][TICKET-ID]: Short description
+
+**Examples:**
+
+- [DOC][ACRIME-101]: Update template document
+- [FIX][ACRIME-102]: Correct database response. 
+
+---
+
+### 7.2 Accepted Type Values
+
+- **DOC** - Documentation changes
+- **FEAT** - New feature
+- **FIX** - Bug fix
+- **REFACTOR** - Code restructuring
+- **CHORE** - Maintenance tasks
+
+---
+
+### 7.3 Requirements
+- PR titles will follow the standard format
+- Each commit message shall follow the standard format
+- Descriptions shall be concise and meaningful
+
+---
+
+## 8. Pull Request Process
+
+### 8.1 Create Branch
+
+- Create a feature branch from the main developement branch
+
+---
+
+### 8.2 Make Changes
+
+- Implement code or documentation updates
+- Ensure alighment with requirements and standards
+
+---
+
+### 8.3 Commit Changes
+
+- Use the required commit message format
+- Group related changes logically
+
+---
+
+### 8.4 Submit Pull Request
+
+- Open a Pull Request (PR) in Github
+- Ensure the PR template is fully completed
+
+---
+
+### 8.5 Review Process
+
+Reviewers shall evaluate:
+
+- Accuracy
+- Completeness
+- Clarity
+- Compliance with standards
+
+---
+
+### 8.6 Address Feedback
+
+- Update PR based on reviewer comments
+- Maintain clear communication in PR discussion
+
+---
+
+### 8.7 Approval and Merge
+- Obtain required approvals
+- Merge PR according to project workflow
+
+---
+
+## 9. Pull Request Template
+
+All pull requests will use the approved template below. 
+
+---
+
+### 9.1 PR Template
+
+```md
+## Purpose
+Provide a concise description of the change and its intended outcome.
+
+---
+
+## Agile Traceability
+**Sprint / Iteration:**
+**User Story or Ticket:**
+**Related Issue(s):**
+
+---
+
+## Change Summary
+-
+-
+-
+
+---
+
+## Justification
+- [ ] Implement approved work
+- [ ] Correct an issue
+- [ ] Update documentation
+- [ ] Improve clarity or consistency
+- [ ] Other:
+
+---
+
+## Documentation Impact
+- [ ] No documentation changes required
+- [ ] Documentation updated
+
+---
+
+## Validation Performed
+- [ ] Reviewed for accuracy
+- [ ] Verfied steps or functionality
+- [ ] Checked links/references
+
+---
+
+## Compliance and Quality Checklist
+- [ ] Content is within approved scope
+- [ ] Acronyms are defined on first use
+- [ ] No sensitive information included
+- [ ] References and links are accurate
+- [ ] Aligns with project standards
+```
+
+## 10. Documentation Standards in Pull Requests
+All PRs involving documentation will contain the following:
+- Use clear and concise language
+- Define acronyms on first use
+- Maintain consistent terminology
+- Follow project style guidelines
+- Ensure content is accessible and understandable
+
+---
+
+## 11. Compliance and Secuirty Considerations
+- No sensitive or controlled informaiton will be included in PRs
+- All changes shall comply with applicable DHS and project policies
+- Access to repositories shall follow approved security protocols
+
+---
